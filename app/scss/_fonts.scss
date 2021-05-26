@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Montserrat-Extrabold", sans-serif;
+    src: url("../fonts/Montserrat-ExtraBold.woff2") format('woff2'),
+    url("../fonts/Montserrat-ExtraBold.woff") format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat-Bold", sans-serif;
+    src: url("../fonts/Montserrat-Bold.woff2") format('woff2'),
+    url("../fonts/Montserrat-Bold.woff") format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat-Semibold", sans-serif;
+    src: url("../fonts/Montserrat-SemiBold.woff2") format('woff2'),
+    url("../fonts/Montserrat-SemiBold.woff") format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular", sans-serif;
+    src: url("../fonts/Montserrat-Regular.woff2") format('woff2'),
+    url("../fonts/Montserrat-Regular.woff") format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot');
+    src:url('../fonts/icomoon.eot') format('embedded-opentype'),
+        url('../fonts/icomoon.svg') format('svg'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.ttf') format('truetype');    
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+    }
+
+ [class^=" icon-"],
+ [class*=" icon-"] {
+        font-family: 'icomoon';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smothing: grayscale;
+ }
+
+.icon-search:before {
+    content: "\e986";
+}
+
+.icon-heart:before {
+    content: "\e902";
+}
+
+.icon-user:before {
+    content: "\e900";
+}
+
+.icon-close:before {
+    content: "\ea0f";
+}
+
+.icon-cheveron-left:before {
+    content: "\e904";
+}
+
+.icon-cheveron-right:before {
+    content: "\e903";
+}
+
+.icon-cart:before {
+    content: "\e93a";
+}
+
+.icon-heart-o:before {
+    content: "\e901";
+}
